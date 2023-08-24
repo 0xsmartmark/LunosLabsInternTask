@@ -1,0 +1,13 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.9.3 
+  - smartcontractkit/chainlink@2.4.0
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.9.3'
+      - '@chainlink=smartcontractkit/chainlink@2.4.0'
+wallets:
+  from_key: ${PRIVATE_KEY}
+pinata:
+  pinata_api_key: 0357426c49e69c34f81a
+  pinata_secret_api_key: 2fa14507a2c026a0c9f16bd485fd85d8c90e5abba1ffb46de7709d6a9ae809a2
