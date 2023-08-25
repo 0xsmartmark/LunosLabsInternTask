@@ -42,7 +42,7 @@ contract bearsNFT is ERC721, Ownable {
         }
     }
 
-    function createNewRandomBear() public returns (uint256) {
+    function createNewRandomBear() private returns (uint256) {
         uint256 newId = bears.length;
         //Thought: Maybe it's better to call random once and reuse it, to save gas
         uint hair = random() % trairTypeCnt;
