@@ -1,3 +1,3 @@
-# Sample Hardhat Project
+# My Omnichain Token
 
 This project demonstrates an OmniChain Token.
